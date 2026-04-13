@@ -8,7 +8,7 @@ import 'package:github_actions_toolkit/github_actions_toolkit.dart' as gaction;
 
 const logger = gaction.log;
 
-dynamic main(List<String> args) async {
+Future<void> main(List<String> args) async {
   exitCode = 0;
 
   // Parsing user inputs and environment variables

@@ -1,4 +1,4 @@
-FROM dart:2.19 AS dartimage
+FROM dart:stable AS dartimage
 
 COPY app/ /app/
 
